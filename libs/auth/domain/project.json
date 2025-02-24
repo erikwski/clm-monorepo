@@ -1,16 +1,16 @@
 {
-  "name": "user-feature-login",
+  "name": "auth-domain",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/user/feature-login/src",
-  "prefix": "feature-login",
+  "sourceRoot": "libs/auth/domain/src",
+  "prefix": "domain",
   "projectType": "library",
-  "tags": ["scope:libs", "domain:user", "type:feature"],
+  "tags": ["scope:libs", "domain:auth", "type:domain"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/user/feature-login/jest.config.ts"
+        "jestConfig": "libs/auth/domain/jest.config.ts"
       }
     },
     "lint": {

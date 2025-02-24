@@ -15,12 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@datacolor/libs/user/data-access": [
-        "libs/user/data-access/src/index.ts"
+      "@datacolor/apps/color-development-order": [
+        "apps/color-development-order/src/index.ts"
       ],
-      "@datacolor/libs/user/domain": ["libs/user/domain/src/index.ts"],
-      "@datacolor/libs/user/feature-login": [
-        "libs/user/feature-login/src/index.ts"
+      "@datacolor/libs/auth/data-access": [
+        "libs/auth/data-access/src/index.ts"
+      ],
+      "@datacolor/libs/auth/domain": ["libs/auth/domain/src/index.ts"],
+      "@datacolor/libs/auth/feature-login": [
+        "libs/auth/feature-login/src/index.ts"
       ]
     }
   },

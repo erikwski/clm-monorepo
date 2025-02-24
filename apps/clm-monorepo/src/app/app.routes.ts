@@ -3,14 +3,10 @@ import { AppComponent } from './app.component';
 
 export const appRoutes: Route[] = [
   {
-    path: '',
-    component: AppComponent
+    path: 'cdo',
+    loadComponent: () =>
+      import('@datacolor/apps/color-development-order').then(
+        (r) =>  r.AppComponent
+      ),
   },
-//   {
-//     path: 'cdo',
-//     loadChildren: () =>
-//       import('@web-matching/job-manager/feature-job-manager').then(
-//         (r) => r.featurejobManagerRoutes
-//     ),
-//   },
 ];

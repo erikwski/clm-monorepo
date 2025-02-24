@@ -1,8 +1,8 @@
 export default {
-  displayName: 'user-domain',
+  displayName: 'auth-domain',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../coverage/libs/user/domain',
+  coverageDirectory: '../../../coverage/libs/auth/domain',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

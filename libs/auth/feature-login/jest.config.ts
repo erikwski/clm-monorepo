@@ -1,8 +1,8 @@
 export default {
-  displayName: 'user-feature-login',
+  displayName: 'auth-feature-login',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../coverage/libs/user/feature-login',
+  coverageDirectory: '../../../coverage/libs/auth/feature-login',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
