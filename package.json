@@ -13,6 +13,7 @@
     "@angular/platform-browser": "~18.2.0",
     "@angular/platform-browser-dynamic": "~18.2.0",
     "@angular/router": "~18.2.0",
+    "@datacolor/nx-generators": "^1.1.0",
     "rxjs": "~7.8.0",
     "zone.js": "~0.14.3"
   },
@@ -43,7 +44,7 @@
     "eslint-config-prettier": "^9.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jest-preset-angular": "~14.1.0",
+    "jest-preset-angular": "^14.5.3",
     "nx": "19.8.14",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
