@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@datacolor/libs/user/data-access": [
+        "libs/user/data-access/src/index.ts"
+      ],
+      "@datacolor/libs/user/domain": ["libs/user/domain/src/index.ts"],
+      "@datacolor/libs/user/feature-login": [
+        "libs/user/feature-login/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
