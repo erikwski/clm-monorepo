@@ -20,6 +20,11 @@
           {
             "glob": "**/*",
             "input": "apps/clm-monorepo/public"
+          },
+          {
+            "glob": "**/*",
+            "input": "../../node_modules/@datacolor/ui/assets",
+            "output": "./assets"
           }
         ],
         "styles": ["apps/clm-monorepo/src/styles.scss"],

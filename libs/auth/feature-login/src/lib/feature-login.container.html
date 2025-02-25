@@ -1,1 +1,9 @@
-<p>feature-login works!</p>
+<dcui-field> 
+  <dcui-input [(ngModel)]="username"></dcui-input> 
+  <dcui-label label="Username" hint="Insert username"></dcui-label>
+</dcui-field>
+<dcui-field> 
+  <dcui-input [(ngModel)]="password"></dcui-input> 
+  <dcui-label label="Password" hint="Insert password"></dcui-label>
+</dcui-field>
+<button dcui-button (click)="login()">Login</button>

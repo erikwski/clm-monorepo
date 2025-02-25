@@ -18,13 +18,17 @@
       "@datacolor/apps/color-development-order": [
         "apps/color-development-order/src/index.ts"
       ],
+      "@datacolor/apps/color-hub": ["apps/color-hub/src/index.ts"],
+      "@datacolor/apps/color-standard-editor": [
+        "apps/color-standard-editor/src/index.ts"
+      ],
       "@datacolor/libs/auth/data-access": [
         "libs/auth/data-access/src/index.ts"
       ],
       "@datacolor/libs/auth/domain": ["libs/auth/domain/src/index.ts"],
       "@datacolor/libs/auth/feature-login": [
         "libs/auth/feature-login/src/index.ts"
-      ]
+      ],
     }
   },
   "exclude": ["node_modules", "tmp"]

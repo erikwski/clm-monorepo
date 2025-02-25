@@ -1,0 +1,28 @@
+<dcui-navigation-bar
+  [hideLogo]="true"
+>
+  <ng-container navigation>
+    <a dcuiNavigationBarItem
+      routerLink="cdo"
+      routerLinkActive
+      #navigationLink="routerLinkActive"
+      [selected]="navigationLink.isActive">CDO</a>
+    <a dcuiNavigationBarItem
+      routerLink="color-hub"
+      routerLinkActive
+      #navigationLink2="routerLinkActive"
+      [selected]="navigationLink2.isActive">HUB</a>
+    <a dcuiNavigationBarItem
+      routerLink="color-standard-editor"
+      routerLinkActive
+      #navigationLink3="routerLinkActive"
+      [selected]="navigationLink3.isActive">CSE</a>
+  </ng-container>
+  <ng-container secondary>
+    <button dcui-button variant="primary" size="s" (click)="logout()" >
+      Logout
+    </button>
+  </ng-container>
+</dcui-navigation-bar>
+
+<router-outlet></router-outlet>
