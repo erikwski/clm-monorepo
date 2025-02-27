@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { FeatureTableDataContainer } from '@datacolor/shared/shared/feature-table-data';
 
 @Component({
   standalone: true,
-  imports: [RouterModule],
+  imports: [FeatureTableDataContainer],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

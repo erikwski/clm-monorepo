@@ -31,7 +31,7 @@ export const appRoutes: Route[] = [
       {
         path: 'color-hub',
         loadComponent: () =>
-          import('@datacolor/apps/color-hub').then((r) => r.AppComponent),
+          import('@datacolor/apps/color-hub').then((r) => r.AppComponent),       
       },
       {
         path: 'color-standard-editor',
