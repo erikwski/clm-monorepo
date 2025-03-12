@@ -29,6 +29,9 @@
       "@datacolor/libs/auth/feature-login": [
         "libs/auth/feature-login/src/index.ts"
       ],
+      "@datacolor/shared/notification/feature-emit": [
+        "libs/shared/notification/feature-emit/src/index.ts"
+      ],
       "@datacolor/shared/shared/feature-table-data": [
         "libs/shared/feature-table-data/src/index.ts"
       ]

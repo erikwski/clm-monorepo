@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { AuthService } from '@datacolor/libs/auth/data-access';
+import { NotificationPort } from '@datacolor/shared/notification/feature-emit';
 import { FeatureTableDataContainer } from '@datacolor/shared/shared/feature-table-data';
 
 @Component({
@@ -11,11 +12,9 @@ import { FeatureTableDataContainer } from '@datacolor/shared/shared/feature-tabl
 })
 export class AppComponent {
   title = 'color-hub';
-
-  protected authService = inject(AuthService);
+  protected notification = inject(NotificationPort);
 
   ngOnInit() {
-    this.authService.getProtectedData();
+    this.notification.notify('Hello from Colibri');
   }
-
 }
